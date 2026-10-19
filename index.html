@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>byeongrok apps</title>
+  <style>
+    :root { --text: #1f2937; --muted: #6b7280; --bg: #f9fafb; --brand: #6c67e2; }
+    @media (prefers-color-scheme: dark) { :root { --text: #f3f4f6; --muted: #9ca3af; --bg: #111827; } }
+    body {
+      margin: 0; background: var(--bg); color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+    }
+    main { max-width: 640px; margin: 0 auto; padding: 48px 16px; }
+    a { display: flex; align-items: center; gap: 16px; color: inherit; text-decoration: none; }
+    img { width: 64px; height: 64px; border-radius: 14px; }
+    p { margin: 2px 0 0; color: var(--muted); font-size: 14px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Apps</h1>
+    <a href="lottopickup/">
+      <img src="lottopickup/icon.png" alt="" />
+      <div><strong>로또픽업</strong><p>로또 6/45 번호 생성·저장·당첨 확인</p></div>
+    </a>
+  </main>
+</body>
+</html>
